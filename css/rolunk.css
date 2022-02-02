@@ -1,0 +1,78 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+
+
+.about-section{
+    background: url(cap.jpg) no-repeat left;
+    background-size: 50%;
+    background-color: #eee;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-section .szoveg{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+.Kapcsolat{
+      display: inline-flex;
+      background-color:#b30000;
+      padding: 15px 35px;
+      border-radius: 50px;
+      color: #fff;
+        
+       text-decoration: none;
+       font-weight: 500;
+       justify-content: center;
+       text-align: center;
+       letter-spacing: 1px;
+       width: 40%;
+       font-size:15px;
+    }
